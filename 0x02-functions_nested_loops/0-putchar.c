@@ -9,9 +9,9 @@ int main(void)
 	char ch[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r',};
 	unsigned int c;
 
-	for (p = 0; p < sizeof(ch); p++)
+	for (c = 0; c < sizeof(ch); c++)
 	{
 		_putchar(ch[c]);
 	}
 	_putchar('\n');
-	return (0)
+	return (0);
