@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	char ch[] = "_putchar";
-	int c;
+	char ch[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'}
+	unsigned int c;
 
-	for (c = 0; c < 9; c++)
+	for (c = 0; c < sizeof (ch); c++)
 	{
 		_putchar(ch[c]);
 	}
