@@ -2,7 +2,7 @@
 
 /**
  *
- *  * main - print the first 50 fibonacci numbers.
+ * main - print the first 50 fibonacci numbers.
  *
  * Return: Nothing.
  */
@@ -24,6 +24,6 @@ int main(void)
 		else
 			printf(", ");
 	}
-	
+
 	return (0);
 }
