@@ -1,4 +1,4 @@
-#includes "main.h"
+#include "main.h"
 
 /**
  * rev_string - function that reverses a string.
@@ -10,7 +10,7 @@ void rev_string(char *s)
 	int a, r;
 	char c;
 
-	for (a = 0; s[a] != o; a++)
+	for (a = 0; s[a] != 0; a++)
 	{
 	}
 	r = 0;
