@@ -4,6 +4,7 @@
  * _strncpy - function that copies a string
  * @dest: destination string
  * @src: copy from
+ * @n: number of character
  * Return: 0
  */
 char *_strncpy(char *dest, char *src, int n)
