@@ -27,9 +27,9 @@ int _sqrt_recursion(int n)
 int helper(int n, int i)
 {
 	if (n == (i * i))
-		return (1);
+		return (i);
 	else if (n > (i * i))
-		return (helper(n, i + i));
+		return (helper(n, i + 1));
 	else
 		return (-1);
 }
